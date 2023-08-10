@@ -3,17 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stackup.Api", "Stackup.Api\Stackup.Api.csproj", "{4DB6525B-B558-4B2F-95D9-A0D65F4953C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stackup.Api", "Stackup.Api\Stackup.Api.csproj", "{4DB6525B-B558-4B2F-95D9-A0D65F4953C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stackup.Api.Test", "Stackup.Api.Test\Stackup.Api.Test.csproj", "{1A2ED690-06EC-40DB-8F10-23AF3F7215D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stackup.Api.Test", "Stackup.Api.Test\Stackup.Api.Test.csproj", "{1A2ED690-06EC-40DB-8F10-23AF3F7215D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stackup.Console", "Stackup.Console\Stackup.Console.csproj", "{104818C5-5937-4E2B-B1D1-A720B9CF142D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4DB6525B-B558-4B2F-95D9-A0D65F4953C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,12 @@ Global
 		{1A2ED690-06EC-40DB-8F10-23AF3F7215D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A2ED690-06EC-40DB-8F10-23AF3F7215D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2ED690-06EC-40DB-8F10-23AF3F7215D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104818C5-5937-4E2B-B1D1-A720B9CF142D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104818C5-5937-4E2B-B1D1-A720B9CF142D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104818C5-5937-4E2B-B1D1-A720B9CF142D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104818C5-5937-4E2B-B1D1-A720B9CF142D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

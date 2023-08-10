@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Documents/Testing/Stackup.Api/Stackup.Api.csproj": {}
+    "C:\\Projects\\Stackup\\Stackup.Api\\Stackup.Api.csproj": {}
   },
   "projects": {
-    "/Users/apple/Documents/Testing/Stackup.Api/Stackup.Api.csproj": {
+    "C:\\Projects\\Stackup\\Stackup.Api\\Stackup.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Documents/Testing/Stackup.Api/Stackup.Api.csproj",
+        "projectUniqueName": "C:\\Projects\\Stackup\\Stackup.Api\\Stackup.Api.csproj",
         "projectName": "Stackup.Api",
-        "projectPath": "/Users/apple/Documents/Testing/Stackup.Api/Stackup.Api.csproj",
-        "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Documents/Testing/Stackup.Api/obj/",
+        "projectPath": "C:\\Projects\\Stackup\\Stackup.Api\\Stackup.Api.csproj",
+        "packagesPath": "C:\\Users\\xvchengalvarayan\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stackup\\Stackup.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/apple/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\xvchengalvarayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://packages.gt.rxo.com/nuget/rxo/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
