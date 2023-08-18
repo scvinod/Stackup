@@ -16,7 +16,7 @@ public class Program
             Console.WriteLine("Completed");
         });
         Console.WriteLine("Done");
-        return ERROR_BAD_ARGUMENTS;
+        return ERROR_SUCCESS;
     }
 
     static async Task DelayWithCallback(int millisecondsDelay, Action callback)
