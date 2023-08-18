@@ -8,7 +8,7 @@ public class Program
     private const int ERROR_ARITHMETIC_OVERFLOW = 0x216;
     private const int ERROR_INVALID_COMMAND_LINE = 0x667;
 
-    public async static void Main()
+    public async static Task Main()
     {
         Console.WriteLine("Hello, World!");
         await DelayWithCallback(10000, () =>
