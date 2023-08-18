@@ -8,15 +8,15 @@ public class Program
     private const int ERROR_ARITHMETIC_OVERFLOW = 0x216;
     private const int ERROR_INVALID_COMMAND_LINE = 0x667;
 
-    public async static Task<int> Main()
+    public async static void Main()
     {
-        Console.WriteLine("Hello, World!!");
+        Console.WriteLine("Hello, World!");
         await DelayWithCallback(10000, () =>
         {
             Console.WriteLine("Completed");
         });
         Console.WriteLine("Done");
-        return ERROR_SUCCESS;
+        Environment.ExitCode = ERROR_BAD_ARGUMENTS;
     }
 
     static async Task DelayWithCallback(int millisecondsDelay, Action callback)
