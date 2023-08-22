@@ -4,9 +4,7 @@ using System.Numerics;
 public class Program
 {
     private const int ERROR_SUCCESS = 0;
-    private const int ERROR_BAD_ARGUMENTS = 0xA0;
-    private const int ERROR_ARITHMETIC_OVERFLOW = 0x216;
-    private const int ERROR_INVALID_COMMAND_LINE = 0x667;
+    private const int ERROR_FAILURE = 0xA0;
 
     public static void Main()
     {
@@ -24,7 +22,7 @@ public class Program
         catch (Exception e)
         {
             Console.WriteLine($"Exception occurred {e.Message}"); 
-            Environment.ExitCode = ERROR_BAD_ARGUMENTS;
+            Environment.ExitCode = ERROR_FAILURE;
         }
     }
 
